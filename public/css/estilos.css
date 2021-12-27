@@ -1,0 +1,95 @@
+* { margin: 0; padding: 0;}
+
+/* Variables */
+:root {
+	/* Colores */
+	--amarillo: #EAC926;
+	--azul: #03264C;
+	--celeste: #1259c3;
+	--grisoscuro: #666;
+	--grisclaro: #ebebeb;
+	--verde: #39b54a;
+
+	/* Fuentes */
+	--fuentePrincipal: "roboto", sans-serif;
+	/* Tamaño Fuente*/
+	--parrafo: 12px;
+	--titulo: 24px;
+	--precios: 18px;
+	--descripcion: 26px;
+}
+
+body {
+	font-family: var(--fuentePrincipal);
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.pb-15 {
+	padding-bottom: 15px;
+}
+
+/* Header */
+header {
+	background-color: var(--amarillo);
+	padding-bottom: 20px;
+	font-size: var(--parrafo);
+	padding-top: 25px;
+}
+header .logo {
+	padding-left: 25px;
+	width: 150px;
+}
+header .cuotas {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.buscador input {
+	margin-left: 15px;
+}
+header .burger-menu {
+	width: 30px;
+	height: 35px;
+	background-color: var(--celeste);
+	border-radius: 5px;
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+}
+
+header .burger-menu i {
+	margin-top: 9px;
+}
+
+/* Banner */
+.banner {
+	display: none;
+}
+
+/* Footer */
+footer {
+	padding-top: 40px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+footer p {
+	font-size: var(--parrafo);
+	padding: 0 30px 30px 30px;
+}
+footer h5 {
+	font-size: var(--descripcion);
+}
+footer i{
+	font-size: 2em;
+	color: var(--celeste);
+	margin-bottom: 10px;
+}
+footer .copia {
+	font-size: var(--parrafo);
+	color: var(--grisoscuro);
+	text-align: left;
+	padding-left: 15px;
+}
